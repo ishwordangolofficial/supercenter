@@ -192,10 +192,14 @@ body {
 
 .mainslider .slick-prev {
   left: 0rem;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .mainslider .slick-next {
   right: 0rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 /* marquee slider */
@@ -465,15 +469,7 @@ body {
   left: -12px;
 }
 
-.news-events-slider .slick-prev:before {
-  font-family: "icomoon";
-  content: "\e937";
-}
 
-.news-events-slider .slick-next:before {
-  font-family: "icomoon";
-  content: "\e938";
-}
 
 .news-events-slider .slick-next {
   right: -12px;
