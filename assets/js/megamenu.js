@@ -49,7 +49,7 @@
                     n(t)
                         .find(".nav-menus-wrapper")
                         .prepend(
-                            "<div class='flex justify-between'><a href='/' class='block lg:hidden'><h1 class='text-2xl 2xl:text-4xl font-extrabold'><span class='text-primary'>Super </span><span class='text-secondary'>Center</span></h1></a><span class='nav-menus-wrapper-close-button text-white hover:text-primary'>&#10005;</span></div>"
+                            "<div class='flex justify-between'><a href='/' class='block lg:hidden'><h1 class='text-2xl 2xl:text-4xl font-extrabold'><span class='text-primary'>Super </span><span class='text-white'>Center</span></h1></a><span class='nav-menus-wrapper-close-button text-white hover:text-primary'>&#10005;</span></div>"
                         ),
                     "right" == r.settings.offCanvasSide &&
                     n(t)

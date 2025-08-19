@@ -397,10 +397,6 @@ body {
   transition: transform 0.3s ease;
 }
 
-.video-container:hover {
-  transform: scale(1.02);
-}
-
 .play-button {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
