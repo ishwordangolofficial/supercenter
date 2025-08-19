@@ -437,9 +437,11 @@ body {
   margin-bottom: 1rem;
 }
 
+
+
 .news-events-slider .slick-slide .relative.overflow-hidden img {
   width: 100%;
-  height: 100%;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -511,6 +513,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+
   .news-events-slider .slick-prev,
   .news-events-slider .slick-next {
     width: 35px;
@@ -528,6 +531,10 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+
+  .news-events-slider .slick-slide .relative.overflow-hidden img {
+    height: 200px;
+  }
   .news-events-slider .slick-prev,
   .news-events-slider .slick-next {
     display: none !important;
